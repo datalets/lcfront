@@ -1,105 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>La CULTina</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/my.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Schulungsapp</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
   </head>
   <body>
-        <div id="wrapper">
-        <div class="overlay"></div>
-
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                       <img src="img/logo_lacultina.gif" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="menu/weekm.html">Menu</a>
-                </li>
-                <li>
-                    <a href="#">Zutatenliste</a>
-                </li>
-
-                <!-- <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">Team</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>-->
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-          <span class="hamb-middle"></span>
-        <span class="hamb-bottom"></span>
-            </button>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <img class="img-responsive"  style="display: inline" src="img/LaCultina Logo.jpg" alt="">
-                        <h1>La CULTina <br>Schulungsapp</h1>
-                        <p>Es ist ein mobilen Schulungsapp, entwickelt speziell für die Praktikanten
-                        des Restaurants La CULTina. Der Zweck dieser App, auf allen Smartphones zugänglich,
-                        wird das interaktive Morgenprogramm mit den Praktikanten zu erleichtern. Ebenso wird
-                        dieser App von den Auszubildenden verwendet um Kenntnisse zu erweitern, und die
-                        Namen der Zutaten, Geschirr und Küchengeräte auswendig und vertieft zu lernen.
-                        Der zentrale Funktion des Apps ist eine schnelle Übersicht aller verwendeten
-                        Rezepte in der Zubereitung von Speisen, Desserts und Getränken serviert im
-                        Restaurant La CULTina.  LaCULTina hilft den Flüchtlingen in der
-                        Schweiz zu integrieren und anschliessend einen Job in der Schweiz im Bereich
-                        der Gastronomie zu finden.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/my.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Page Wrapper -->
+			<div id="page-wrapper">
+        <!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">La Cultina</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+        <!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Navigation</h2>
+							<ul class="links">
+								<li><a href="index.html" class="icon fa-home"></a></li>
+								<li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+        <!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><img src="images/LaCultina Logo.png" alt="Schulungsapp"></div>
+							<h2>La CULTina</h2>
+							<p>Es ist ein mobilen Schulungsapp, entwickelt speziell für die Praktikanten des Restaurants La CULTina. Der Zweck dieser App, auf allen Smartphones zugänglich, wird das interaktive Morgenprogramm mit den Praktikanten zu erleichtern.</p>
+						</div>
+					</section>
+      </div>
+    <!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
   </body>
 </html>
